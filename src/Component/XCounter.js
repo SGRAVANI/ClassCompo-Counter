@@ -2,8 +2,9 @@ import React from 'react'
 import styles from "./styles.module.css"
 
 export default class XCounter extends React.Component {
-    constructor()
+    constructor(props)
     {
+        super(props)
         this.state={c:0}
     }
   render()
